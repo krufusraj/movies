@@ -22,7 +22,7 @@ export default class ReviewsController{
         }
     }
 
-    static async apiPostReview(req,res,next){
+    static async apiUpdateReview(req,res,next){
         try{
             const reviewId = req.body.review_id
             const review = req.body.review
